@@ -1,0 +1,31 @@
+canvas {
+  position: absolute;
+}
+.instructions {
+  color: black;
+  position: inherit;
+  bottom: 700px;
+  font-size: 25px;
+  z-index: 0;
+}
+
+::selection {
+  background: transparent;
+}
+
+#titleScreen {
+  position: absolute;
+  z-index: 1;
+  justify-content: center;
+}
+
+img {
+  width: 800px;
+  height: 400px;
+}
+
+#wrap {
+  margin: auto;
+  width: 50%;
+  padding: 100px;
+}
